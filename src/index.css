@@ -1,0 +1,27 @@
+@import "tailwindcss";
+
+body {
+  height: 100%;
+}
+
+.majorMono {
+  font-family: "Major Mono Display", monospace;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.pangolin {
+  font-family: "Pangolin", cursive;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.montserrat {
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+
+.whiteSvg {
+  background-image: url("./assets/whiteSvg.svg");
+}
