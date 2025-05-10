@@ -135,7 +135,7 @@ const Navbar = () => {
   return (
     <div
       ref={navbarRef}
-      className="sticky z-20 top-4 w-full flex justify-center select-none"
+      className="sticky z-20 top-6 w-full flex justify-center select-none"
     >
       <div
         className={`border px-5 py-2 lg:px-8 lg:py-2 mx-4 rounded-2xl lg:w-2/5 shadow flex gap-12 items-center justify-between transition-all duration-300 ${
@@ -161,7 +161,7 @@ const Navbar = () => {
             <div
               key={index}
               onClick={() => {}}
-              className={`icons p-2 border rounded-lg hover:scale-[0.95] hover:shadow-none shadow transition-all duration-200 ease-in-out ${
+              className={`hover:animate-spin icons p-2 border rounded-lg hover:scale-[0.95] hover:shadow-none shadow transition-all duration-200 ease-in-out ${
                 darkTheme
                   ? "text-white border-neutral-500"
                   : "text-neutral-600 border-neutral-200"

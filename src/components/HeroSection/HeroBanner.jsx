@@ -1,11 +1,10 @@
 import React, { useEffect, useRef } from "react";
 import assets from "../../assets";
-import { RiContactsBook2Line } from "react-icons/ri";
 import { IoDocumentTextOutline } from "react-icons/io5";
 import { SiBuymeacoffee } from "react-icons/si";
 import gsap from "gsap";
 import { ScrollTrigger } from "gsap/ScrollTrigger";
-import { FiBriefcase } from "react-icons/fi";
+import { PiMouseMiddleClick } from "react-icons/pi";
 
 gsap.registerPlugin(ScrollTrigger);
 
@@ -50,7 +49,7 @@ const HeroBanner = () => {
   }, []);
 
   return (
-    <div className="h-full flex flex-col justify-between select-none">
+    <div className="h-full w-full flex items-center flex-col justify-between select-none">
       <div
         className="flex flex-col gap-8 md:flex-col lg:flex-row lg:gap-[5rem] py-18 lg:py-32"
         ref={bannerContainerRef}
@@ -65,7 +64,7 @@ const HeroBanner = () => {
         </div>
         <div className="flex flex-col gap-8 lg:gap-5 lg:max-w-[50rem] px-4">
           <div className="left">
-            <div className="flex items-center backdrop-blur-2xl gap-4 bg-white/40 p-2 shadow rounded-4xl px-4 w-fit border border-neutral-300 montserrat">
+            <div className="flex items-center justify-center backdrop-blur-2xl gap-4 bg-white/40 p-2 shadow rounded-4xl px-4 w-fit border border-neutral-300 montserrat">
               <div className="w-3 h-3 inline-flex items-center justify-center rounded-full bg-green-500">
                 <div className="bg-green-500 w-3 h-3 rounded-full animate-ping"></div>
               </div>
@@ -94,6 +93,9 @@ const HeroBanner = () => {
             </button>
           </div>
         </div>
+      </div>
+      <div className="inline-flex items-center justify-center">
+        <PiMouseMiddleClick className="w-8 h-8 text-neutral-600 animate-bounce" />
       </div>
     </div>
   );
