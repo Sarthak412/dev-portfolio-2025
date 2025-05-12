@@ -138,7 +138,7 @@ const Navbar = () => {
       className="sticky z-20 top-6 w-full flex justify-center select-none"
     >
       <div
-        className={`border px-5 py-2 lg:px-8 lg:py-2 mx-4 rounded-2xl lg:w-2/5 shadow flex gap-12 items-center justify-between transition-all duration-300 ${
+        className={`border border-neutral-100 px-5 py-2 lg:px-8 lg:py-2 mx-4 rounded-2xl lg:w-2/5 shadow flex gap-12 items-center justify-between transition-all duration-300 ${
           darkTheme
             ? "bg-gradient-to-br from-white/10 to-neutral-900/25 border-neutral-800"
             : "bg-white border-neutral-200"

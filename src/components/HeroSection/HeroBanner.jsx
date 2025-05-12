@@ -49,7 +49,7 @@ const HeroBanner = () => {
   }, []);
 
   return (
-    <div className="h-full w-full flex items-center flex-col justify-between select-none">
+    <div className="h-full w-full flex items-center flex-col my-6 justify-between select-none">
       <div
         className="flex flex-col gap-8 md:flex-col lg:flex-row lg:gap-[5rem] py-18 lg:py-32"
         ref={bannerContainerRef}
